@@ -27,6 +27,7 @@
 - output: **Dialogue State**
     - ["숙소-지역-서울 중앙", "숙소-인터넷 가능-yes"]
 
+---
 
 
 ## 2. (OCR) IMAGE TO Latext - 수식인식기 (진행중)
@@ -36,6 +37,7 @@
 [깃헙]()
 
 
+---
 
 
 ## 3. Relation Extraction
@@ -69,6 +71,7 @@ relation: 단체:별칭
 
 - output: relation 42개 classes 중 1개의 class를 예측한 값
 
+---
 
 # 4 Mask Detection
 [자세히 보기](https://seminoh.oopy.io/9a521f8f-0be8-4f43-add9-3ef090cc8726)
