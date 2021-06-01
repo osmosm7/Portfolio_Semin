@@ -1,9 +1,14 @@
 # Portfolio_Semin
+
+개인 블로그
+
 [Semin's Level up Stage](https://seminoh.oopy.io/)
 
 ---
 ## 1. (NLP) Dialogue State Tracking 
 [자세히 보기](https://seminoh.oopy.io/810be715-7290-47e8-83cf-8fcfca026c4d)
+
+
 [팀 깃헙](https://github.com/bcaitech1/p3-dst-teamed-st)
 ### 1. 프로젝트 요약
 
@@ -24,8 +29,19 @@
 
 
 
-## 2. Relation Extraction
-[자세히 보기](https://www.notion.so/torreira/Klue-Wrap-up-Report-67c41887ee4b45ea831b1fe1a97175bc)
+## 2. (OCR) IMAGE TO Latext - 수식인식기 (진행중)
+[자세히 보기]()
+
+
+[깃헙]()
+
+
+
+
+## 3. Relation Extraction
+[자세히 보기](https://seminoh.oopy.io/67c41887-ee4b-45ea-831b-1fe1a97175bc)
+
+
 [깃헙]()
 ### 1. 프로젝트 요약
 
@@ -54,7 +70,30 @@ relation: 단체:별칭
 - output: relation 42개 classes 중 1개의 class를 예측한 값
 
 
+# 4 Mask Detection
+[자세히 보기](https://seminoh.oopy.io/9a521f8f-0be8-4f43-add9-3ef090cc8726)
 
+[깃헙 링크]()
+
+### 1. 프로젝트 요약
+
+#### 1-1 대회 설명
+
+Covid 19 확산으로 마스크를 정상적으로 착용하는지 여부에 대한 판단을 돕는 모델을 만든다. 또한, 성별과 나이를 추가적으로 파악할 수 있는 Task도 동시에 수행한다.
+
+#### 1-2 대회 목표
+
+- 문제 : 마스크 착용 여부 ( 제대로 썼는지, 대충 썼는지, 안 썼는지) 분류
+    - 착용 여부 뿐만이 아니라 성별 & 연령대도 분류
+- input : 마스크 착용 사진, 미착용 사진, 혹은 이상하게 착용한 사진(코스크, 턱스크)
+- output : 이미지에 맞는 18개의 class (0~17)
+- DATA
+    - size : (384, 512)
+    - 전체 이미지 폴더 수 : 4500
+    - 한 사람 당 이미지의 개수 : 7 [마스크 착용 5장, 이상하게 착용(코스크, 턱스크) 1장, 미착용 1장]
+    - train data : 60%
+    - 4500 x 7 x 0.6 = 18900 존재
+    - 확장자는 jpg jpeg , png 등 다양
 
  
  
