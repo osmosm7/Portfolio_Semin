@@ -5,7 +5,7 @@
 [Semin's Level up Stage](https://seminoh.oopy.io/)
 
 ---
-## 1. (NLP) Dialogue State Tracking 
+## 1. (NLP) Dialogue State Tracking (1등/11팀)
 [자세히 보기](https://seminoh.oopy.io/810be715-7290-47e8-83cf-8fcfca026c4d)
 
 
